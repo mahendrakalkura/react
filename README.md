@@ -6,7 +6,7 @@ $ mkdir react_1
 $ cd react_1
 $ git clone git@github.com:mahendrakalkura/react_1.git .
 $ npm install
-$ npm install --dev
+$ npm install --only=dev
 $ bower install
 ```
 
