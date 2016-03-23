@@ -15,6 +15,6 @@ How to run?
 
 ```
 $ cd react_1
-$ browserify -t [ babelify --presets [ react ] ] index.js -o index.browserify.js
+$ npm run watch
 $ php -S 0.0.0.0:9999
 ```
