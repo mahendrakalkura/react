@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t [ babelify --presets [ react ] ] index.js -o index.browserify.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,14 @@
   },
   "homepage": "https://github.com/mahendrakalkura/react_1#readme",
   "dependencies": {
-    "babel-preset-react": "^6.5.0",
-    "babelify": "^7.2.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  },
-  "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-preset-react": "^6.5.0",
-    "browserify": "^13.0.0"
-  }
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {}
 }
