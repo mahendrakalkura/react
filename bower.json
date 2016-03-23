@@ -1,0 +1,22 @@
+{
+  "name": "react_1",
+  "homepage": "https://github.com/mahendrakalkura/react_1",
+  "authors": [
+    "Mahendra Kalkura <mahendra@kalkura.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
